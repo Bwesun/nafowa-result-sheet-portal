@@ -7,8 +7,67 @@
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.main-body{
+    padding: 1rem;
+}
+/* TOP HEAD SECTION  */
+.result-head{
+    text-align: center;
+    padding: 1rem;
+}
+.result-image{
+    width: 5rem;
+}
 
+.student-table td, .class-scores td, .student-assessment td, .scores-section td, .scores-section tr, .key-grade td, .student-table, .student-assessment, .class-scores, .scores-section, .key-grade{
+    border: 1px solid #333;
+    border-collapse: collapse;
+    padding: 0.1rem;
+    font-weight: normal;
+}
+/* STUDENT DETAILS SECTION */
+.student-details{
+    display: flex;
+    gap: 6rem;
+    justify-content:center;
+    align-items: center;
+}
+.student-name{
+    text-align: center;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+.student-table{
+    width: 70%;
+    font-size: 1rem;
+}
+.student-table td{
+    padding: 0.1rem;
+}
+.key-grade{
+    font-size: 1rem;
+}
+.academic-head{
+    text-align: center;
+}
+.class-scores{
+    width: 100%;
+}
+.scores-section{
+    font-size: smaller;
+}
+.assessment-section{
+    width: 100%;
+}
 
 .score-input{
-    width: 3rem;
+    width: 100%;
+}
+.staff-comment{
+    line-height: 1.8;
+}
+.commandant-space{
+    display: flex;
+    justify-content: end;
+    line-height: 1.8;
 }
