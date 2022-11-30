@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    left: 0;
+    outline: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.score-input{
+    width: 3rem;
+}
